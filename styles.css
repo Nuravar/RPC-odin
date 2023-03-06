@@ -1,0 +1,31 @@
+
+body {
+    background-color: black !important;
+
+}
+
+
+.container {
+    flex: auto;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+}
+
+.options {
+    padding: 10px;
+    margin: 10px;
+}
+.lightmode {
+    color: black;
+    padding: 5px;
+}
+
+button {
+    background-color: antiquewhite;
+}
+
+button:hover > .lightmode {
+    color: lightcoral;
+}

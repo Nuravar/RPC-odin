@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="rpc.js"></script>
+    <script src="https://kit.fontawesome.com/729b7bf592.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="options">
+            <button id="rockthing" class="Rock" onclick="playRound( 1, getComputerChoice());">
+                <i class="fa-sharp fa-regular fa-3x fa-hand-back-fist lightmode"></i>        
+            </button>
+            <button id="paperthing" class="Paper" onclick="playRound( 2, getComputerChoice());;">
+                <i class="fa-regular fa-3x fa-hand lightmode"></i>        
+            </button>
+            <button id="sthing"class="Scissors" onclick="playRound( 3, getComputerChoice());">
+                <i class="fa-regular fa-3x fa-hand-scissors lightmode"></i>    
+            </button>
+        </div>
+    </div>
+    
+</body>
+</html>
