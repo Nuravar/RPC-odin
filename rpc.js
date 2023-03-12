@@ -35,4 +35,5 @@ function playRound(playerSelection, computerSelection) {
             alert("You Lose, Scissors does not beat option " + computerSelection );
         }
     }
-  }
+}
+
